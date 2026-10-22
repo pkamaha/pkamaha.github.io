@@ -4,7 +4,7 @@ project:
 website:
   title: "Ronald P. Kamaha"
   description: "Epidemiology and biostatistics: surveillance, Bayesian modelling and community health in Africa."
-  site-url: https://rkamaha.github.io
+  site-url: https://pkamaha.github.io
   favicon: favicon.svg
   page-navigation: false
   navbar:
