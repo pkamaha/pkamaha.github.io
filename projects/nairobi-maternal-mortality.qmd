@@ -1,0 +1,47 @@
+---
+title: "Hidden Maternal Deaths in Nairobi's Informal Settlements"
+subtitle: "A Bayesian hierarchical zero-inflated negative binomial model for unobserved maternal mortality"
+categories: [Maternal health, Bayesian modelling, Spatial analysis]
+---
+
+[← All research](../research.qmd){.back-link}
+
+::: {.project-meta}
+::: {}
+[Type]{.k}
+[Research fellowship proposal]{.v}
+:::
+::: {}
+[Programme]{.k}
+[AL for Health, Africa Career Networks]{.v}
+:::
+::: {}
+[Period]{.k}
+[Jan 2025 – present]{.v}
+:::
+::: {}
+[Methods]{.k}
+[Bayesian hierarchical ZINB]{.v}
+:::
+:::
+
+## The question
+
+Maternal deaths in Nairobi's informal settlements are likely under-recorded. Some deaths never reach a facility, some are not reported, and some areas are physically hard to reach. Raw counts therefore contain many zeros, and some of those zeros reflect missed deaths rather than no deaths. This project asks **how many maternal deaths go unobserved, and where**.
+
+## Approach
+
+- **Zero-inflated negative binomial (ZINB):** separates "structural" zeros (areas where deaths are not captured) from true zeros, while allowing for overdispersed counts.
+- **Bayesian hierarchical structure:** borrows strength across areas so that sparse local data still yields stable estimates with honest uncertainty.
+- **Spatial impassability barriers:** includes physical access constraints so that hard-to-reach areas are not mistaken for low-risk ones.
+- **Reporting undercounts:** models under-reporting explicitly, rather than treating recorded counts as the truth.
+
+<!-- TODO: add data sources, priors/software (e.g. brms, INLA, Stan), and preliminary results once available. -->
+
+## Why it matters
+
+Resources follow recorded need. If the areas with the poorest access also have the poorest reporting, standard analyses will direct resources away from the women at highest risk. Estimating the hidden burden corrects that bias.
+
+::: {.next-project}
+Next project: [Conflict and malaria in Cameroon →](malaria-conflict-cameroon.qmd)
+:::

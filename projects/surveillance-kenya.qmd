@@ -1,0 +1,54 @@
+---
+title: "Outbreak Response in Kenya, 2026"
+subtitle: "Field epidemiology with the national public health institute and a referral hospital"
+categories: [Surveillance, Outbreaks, Field epidemiology]
+---
+
+[← All research](../research.qmd){.back-link}
+
+::: {.project-meta}
+::: {}
+[Organisations]{.k}
+[KNPHI · KUTRRH]{.v}
+:::
+::: {}
+[Period]{.k}
+[May – Aug 2026]{.v}
+:::
+::: {}
+[Diseases]{.k}
+[Visceral Leishmaniasis, Mpox, school outbreaks]{.v}
+:::
+::: {}
+[Methods]{.k}
+[IDSR, case definitions, contact tracing]{.v}
+:::
+:::
+
+## Visceral Leishmaniasis mortality
+
+At the **Kenya National Public Health Institute**, I analysed epidemiological data from Kenya's Visceral Leishmaniasis outbreak. I compared **mortality across clinical treatment regimens** to guide targeted public health interventions.
+
+## School outbreaks in Kakamega County
+
+I investigated water-borne and hand-swelling disease outbreaks in Kakamega County schools. I developed **standardised case definitions** and reviewed national reporting frameworks so that cases would be counted consistently.
+
+## Surveillance systems assessment
+
+I trained in Integrated Disease Surveillance and Response (IDSR) and took part in the Africa CDC, KNPHI and Ministry of Health workshop on **toolkit assessment, surveillance system mapping and gap analysis**.
+
+## Hospital surveillance tool
+
+At **Kenyatta University Teaching, Referral and Research Hospital**, I designed and implemented a **hospital-wide surveillance tool**. It simplified data collection for the public health department and sped up analysis for infection-control decisions. I also carried out environmental health compliance audits on all wards to find gaps that raise the risk of hospital-acquired infections.
+
+## Mpox
+
+I helped with outbreak investigation, analysis and **contact tracing for Mpox** within the hospital.
+
+## Cholera GIS workshop
+
+Through the USIU-Africa EpiBio Club, I led a workshop on using **environmental exposure indices, WASH data and spatial modelling** to map and predict cholera outbreaks in Kenya's informal settlements.
+
+::: {.next-project}
+Next project: [Diagnostic baseline for Batoukop →](batoukop-diagnostics.qmd)
+:::

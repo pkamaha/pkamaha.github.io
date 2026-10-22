@@ -1,0 +1,97 @@
+---
+title: "Leadership & Community Impact"
+subtitle: "Turning public health work into results for communities"
+toc: true
+---
+
+## Academic leadership {#academic-leadership}
+
+::: {.timeline}
+::: {.entry}
+::: {.entry-head}
+[Chairperson (Founding Secretary)]{.role}
+[Sep 2023 – Jun 2026]{.when}
+:::
+[USIU-Africa EpiBio Club]{.org}
+
+- Co-founded the club as Secretary, then served as Chairperson.
+- Led a GIS workshop on using environmental exposure indices, WASH data and spatial modelling to map and predict cholera outbreaks in Kenya's informal settlements.
+- Organised campus awareness drives during the Mpox (July 2025) and Ebola (June 2026) outbreak periods.
+:::
+
+::: {.entry}
+::: {.entry-head}
+[Electoral College Representative]{.role}
+[Sep 2024 – Sep 2025]{.when}
+:::
+[School of Pharmacy & Health Sciences, USIU-Africa · team of three]{.org}
+
+- Drafted and pushed through a mandatory **Hepatitis B vaccination** policy for health sciences students, then ran a drive that vaccinated an initial **84 high-risk students**.
+- Organised a four-day blood drive with the Children Sickle Cell Foundation and the Red Cross Club, collecting **200+ pints** for children with sickle cell disease.
+- Proposed a central academic data repository for epidemiology students, and secured fee interest waivers for affected student cohorts.
+
+[Read about our term →](leadership/electoral-college.qmd){.entry-link}
+:::
+:::
+
+## Community health {#community-health}
+
+::: {.timeline}
+::: {.entry}
+::: {.entry-head}
+[Project Lead]{.role}
+[Apr 2023 – Jan 2024]{.when}
+:::
+[Action for Change · Kibera Initiative, Nairobi · with Angaza Foundation]{.org}
+
+- Led a two-part socio-economic intervention responding to economic vulnerability and transactional relationships in Kibera, starting from **$350** in seed funding.
+- Trained and equipped **28 young mothers** in bookkeeping and mobile hair braiding. Their braiding group generated **$500** in compounding profit within three months, and we then handed full control to the women.
+- Fully equipped a youth football team as an alternative to crime. The team **won the Kibera league** three months later.
+
+[Read the full project story →](leadership/kibera-initiative.qmd){.entry-link}
+:::
+
+::: {.entry}
+::: {.entry-head}
+[Founder & Lead, Community Health Project]{.role}
+[Dec 2024 – Dec 2025]{.when}
+:::
+[Diagnostic Initiative · Batoukop, West Cameroon]{.org}
+
+- Secured about $1,000 in funding to equip a local clinic, so residents of this low-resource community no longer had to travel for basic diagnostic tests.
+- Designed and ran a one-month free testing clinic, producing the community's first systematic disease prevalence data (58% malaria positivity, 71% Widal positivity).
+- Analysed the diagnostic data, found high rates of anemia (5% severe, 28% mild), and recommended clinical follow-up and referral pathways.
+
+[Read the full project story →](projects/batoukop-diagnostics.qmd){.entry-link}
+:::
+:::
+
+## Education & mentorship {#education-mentorship}
+
+::: {.timeline}
+::: {.entry}
+::: {.entry-head}
+[Chief Operating Officer]{.role}
+[Joined Sep 2021 · COO since Sep 2023]{.when}
+:::
+[KET Foundation (KET Academy · CEL · ExperienceUni) · Cameroon (remote)]{.org}
+
+- Helped grow a crisis-response initiative into a national digital education platform reaching **5,000+ high-school students**.
+- Led the move from WhatsApp groups to our own platform, [ket.academy](https://ket.academy/), with GCE prep, AI-assisted learning and **100+ resources** and **90+ videos**.
+- Built the team's operating systems and an ambassador network focused on the Centre, Littoral and West regions.
+
+[Read about KET →](leadership/ket-foundation.qmd){.entry-link}
+:::
+
+::: {.entry}
+::: {.entry-head}
+[Founding Secretary General]{.role}
+[Jun 2023 – Aug 2024]{.when}
+:::
+[Mastercard Foundation Scholars Mentorship Program]{.org}
+
+- Co-designed and expanded mentorship initiatives reaching **1,500+ high-school students** in 15 schools across 5 Kenyan counties.
+- Delivered tailored mentorship on academic, personal and career development.
+- Connected high-achieving, low-income students with university funding and college preparation programmes.
+:::
+:::

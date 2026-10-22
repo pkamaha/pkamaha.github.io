@@ -1,0 +1,94 @@
+---
+title: "Research"
+subtitle: "Surveillance, modelling and data from the field"
+toc: true
+toc-title: "Focus areas"
+---
+
+My work asks how much disease burden routine health information systems fail to record, and what statistical tools can recover it. I mainly use **R**, combining Bayesian modelling, interrupted time-series designs and geospatial analysis. Select a project to read more.
+
+## <i class="bi bi-heart-pulse"></i> Maternal health {#maternal-health}
+
+::: {.card-grid}
+::: {.pcard .linked}
+[Undergraduate thesis]{.tag}
+
+### Maternal Mortality in Kenya, 2018–2025
+
+An interrupted time-series and counterfactual analysis comparing trends in routine and audited surveillance data.
+
+[Interrupted time series · Counterfactuals]{.methods} [Read more →](projects/maternal-mortality-kenya.qmd){.read-more .stretched-link}
+:::
+
+::: {.pcard .linked}
+[Research fellowship]{.tag}
+
+### Hidden Maternal Deaths in Nairobi's Informal Settlements
+
+A Bayesian hierarchical zero-inflated negative binomial model for deaths missing from the records.
+
+[Bayesian ZINB · Spatial access]{.methods} [Read more →](projects/nairobi-maternal-mortality.qmd){.read-more .stretched-link}
+:::
+:::
+
+## <i class="bi bi-geo-alt"></i> Bayesian & spatial modelling {#modelling}
+
+::: {.card-grid}
+::: {.pcard .linked}
+[Spatial epidemiology]{.tag}
+
+### Conflict-Driven Acceleration of Malaria Exposure
+
+A spatial interrupted time-series analysis of how armed conflict changed malaria exposure in Cameroon, 2010–2024.
+
+[Spatial ITS · Conflict exposure indexing · GIS]{.methods} [Read more →](projects/malaria-conflict-cameroon.qmd){.read-more .stretched-link}
+:::
+
+::: {.pcard .linked}
+[Workshop · EpiBio Club]{.tag}
+
+### Predicting Cholera in Informal Settlements
+
+A GIS workshop on using environmental exposure indices, WASH data and spatial modelling to map cholera risk.
+
+[GIS · Exposure indices · WASH]{.methods} [Read more →](projects/surveillance-kenya.qmd#cholera-gis-workshop){.read-more .stretched-link}
+:::
+:::
+
+## <i class="bi bi-activity"></i> Surveillance & outbreaks {#surveillance}
+
+::: {.card-grid}
+::: {.pcard .linked}
+[Field epidemiology · KNPHI & KUTRRH]{.tag}
+
+### Outbreak Response in Kenya, 2026
+
+Visceral Leishmaniasis mortality analysis, case definitions for school outbreaks, a hospital surveillance tool and Mpox contact tracing.
+
+[IDSR · Case definitions · Contact tracing]{.methods} [Read more →](projects/surveillance-kenya.qmd){.read-more .stretched-link}
+:::
+
+::: {.pcard .linked}
+[Community field study · Cameroon]{.tag}
+
+### Diagnostic Baseline for Batoukop
+
+A free one-month clinic that produced the community's first prevalence data for malaria, typhoid serology and anemia.
+
+[Prevalence survey · Referral pathways]{.methods} [Read more →](projects/batoukop-diagnostics.qmd){.read-more .stretched-link}
+:::
+:::
+
+## Methods & tools
+
+::: {.chips}
+[Bayesian hierarchical models]{}
+[Zero-inflated count models]{}
+[Interrupted time series]{}
+[Counterfactual analysis]{}
+[Disease risk modelling]{}
+[Conflict exposure indexing]{}
+[GIS & spatial modelling]{}
+[Surveillance systems analysis]{}
+[R]{}
+:::

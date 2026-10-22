@@ -1,0 +1,15 @@
+<script>
+// Fade cards and timeline entries in as they scroll into view.
+// Skipped entirely when the visitor prefers reduced motion.
+(function () {
+  if (!("IntersectionObserver" in window)) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var els = document.querySelectorAll(".focus-card, .pcard, .stat, .timeline .entry, .cta, .activity");
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+    });
+  }, { rootMargin: "0px 0px -40px 0px" });
+  els.forEach(function (el) { el.classList.add("reveal"); io.observe(el); });
+})();
+</script>

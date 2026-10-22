@@ -1,0 +1,46 @@
+---
+title: "Conflict-Driven Acceleration of Malaria Exposure"
+subtitle: "A spatial interrupted time series analysis of Cameroon, 2010–2024"
+categories: [Spatial analysis, Interrupted time series, Malaria]
+---
+
+[← All research](../research.qmd){.back-link}
+
+::: {.project-meta}
+::: {}
+[Type]{.k}
+[Research paper]{.v}
+:::
+::: {}
+[Setting]{.k}
+[Cameroon]{.v}
+:::
+::: {}
+[Study period]{.k}
+[2010–2024]{.v}
+:::
+::: {}
+[Methods]{.k}
+[Spatial ITS, conflict exposure indexing, GIS]{.v}
+:::
+:::
+
+## The question
+
+Armed conflict disrupts the systems that keep malaria in check: health facilities, vector-control campaigns, supply chains and population stability. This study asks whether **conflict accelerated malaria exposure** in Cameroon, and whether the effect differs across regions according to how heavily each was exposed to conflict.
+
+## Approach
+
+- **Conflict exposure indexing:** builds a sub-national measure of how intensely each area was affected by conflict over time.
+- **Spatial interrupted time series:** compares malaria trends before and after conflict onset across areas, allowing the effect to vary over space.
+- **GIS:** maps exposure and outcomes to show where the effects of conflict on malaria are concentrated.
+
+<!-- TODO: add conflict data source (e.g. ACLED), malaria outcome source, interruption date(s), key findings, and a map figure. -->
+
+## Why it matters
+
+Malaria programmes usually plan around climate and ecology. If conflict independently drives exposure, conflict-affected regions need malaria responses designed for disrupted health systems, not only for the local transmission environment.
+
+::: {.next-project}
+Next project: [Outbreak response in Kenya →](surveillance-kenya.qmd)
+:::

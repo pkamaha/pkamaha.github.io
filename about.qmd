@@ -1,5 +1,79 @@
 ---
-title: "About"
+title: "Experience"
+subtitle: "Education, professional experience and recognition"
+toc: true
 ---
 
-About this site
+## Education
+
+::: {.timeline}
+::: {.entry}
+::: {.entry-head}
+[BSc Epidemiology and Biostatistics]{.role}
+[Sep 2022 – Sep 2026]{.when}
+:::
+[United States International University–Africa (USIU-Africa), Nairobi]{.org}
+
+- CGPA 3.591 / 4.0, *Cum Laude*
+- Mastercard Foundation Scholar
+- Dean's List Honoree (8 semesters)
+- Bronze Medalist, university swimming
+:::
+
+:::
+
+## Professional experience
+
+::: {.timeline}
+::: {.entry}
+::: {.entry-head}
+[Attachee]{.role}
+[Jul 2026 – Aug 2026]{.when}
+:::
+[Kenya National Public Health Institute (KNPHI)]{.org}
+
+- Trained in Integrated Disease Surveillance and Response (IDSR); took part in the Africa CDC, KNPHI and Ministry of Health workshop on toolkit assessment, surveillance system mapping and gap analysis.
+- Investigated water-borne and hand-swelling disease outbreaks in Kakamega County schools by developing standardised case definitions and reviewing national reporting frameworks.
+- Analysed epidemiological data from Kenya's Visceral Leishmaniasis outbreak, comparing mortality across clinical treatment regimens to guide public health interventions.
+:::
+
+::: {.entry}
+::: {.entry-head}
+[Attachee]{.role}
+[May 2026 – Jul 2026]{.when}
+:::
+[Kenyatta University Teaching, Referral and Research Hospital (KUTRRH)]{.org}
+
+- Designed and implemented a hospital-wide surveillance tool that simplified data collection and sped up analysis for infection-control decisions.
+- Conducted routine environmental health compliance audits on all wards, identifying operational gaps that raise the risk of hospital-acquired infections.
+- Assisted with outbreak investigation, analysis and contact tracing for Mpox within the facility.
+:::
+
+::: {.entry}
+::: {.entry-head}
+[Research Fellow]{.role}
+[Jan 2025 – Present]{.when}
+:::
+[AL for Health · Africa Career Networks]{.org}
+
+- Developed a research proposal to model unobserved maternal mortality in Nairobi's informal settlements.
+- Applied a Bayesian hierarchical zero-inflated negative binomial (ZINB) model to account for spatial access barriers and reporting undercounts.
+:::
+
+:::
+
+## Skills
+
+- **Modelling:** Bayesian modelling, disease risk modelling, conflict exposure indexing, GIS
+- **Research:** Epidemiological study design, health systems analysis, surveillance, interrupted time series
+- **Tools:** R, Microsoft Office, literature review
+- **Languages:** French (native), English (native)
+
+## Honours & recognition
+
+- Mastercard Foundation Scholar, USIU-Africa (2022)
+- Dean's List Honoree, 8 semesters, USIU-Africa
+- SDG Innovation Challenge Winner, Melton Foundation
+- Alumnus and Finalist, Aspire Institute
+- Delegate, Africa Health Tech Summit 2026, Kigali, Rwanda
+- Regional Excellence Awardee, GCE Ordinary Level (2019) and Advanced Level (2021)

@@ -1,0 +1,46 @@
+---
+title: "Maternal Mortality in Kenya, 2018–2025"
+subtitle: "An interrupted time-series and counterfactual analysis comparing routine and audited surveillance data"
+categories: [Maternal health, Surveillance, Interrupted time series]
+---
+
+[← All research](../research.qmd){.back-link}
+
+::: {.project-meta}
+::: {}
+[Type]{.k}
+[Undergraduate thesis]{.v}
+:::
+::: {}
+[Setting]{.k}
+[Kenya, national]{.v}
+:::
+::: {}
+[Study period]{.k}
+[2018–2025]{.v}
+:::
+::: {}
+[Methods]{.k}
+[Interrupted time series, counterfactual analysis]{.v}
+:::
+:::
+
+## The question
+
+Kenya tracks maternal deaths through more than one system: routine reporting from facilities and an audited review process. When these sources disagree, both the level and the trend of maternal mortality become uncertain. This thesis asks how trends differ between **routine** and **audited** surveillance data from 2018 to 2025, and what mortality would have looked like without key disruptions over that period.
+
+## Approach
+
+- **Interrupted time series:** estimate the level and trend of maternal mortality before and after defined interruption points, separately for each data source.
+- **Counterfactual analysis:** project the pre-interruption trend forward to estimate expected mortality had nothing changed, then compare it with what was observed.
+- **Source comparison:** quantify where routine and audited data diverge and what that divergence means for interpreting national trends.
+
+<!-- TODO: name the data sources (e.g. routine HMIS system, audit/review system), the interruption points, the model specification, and key findings once available. -->
+
+## Why it matters
+
+If routine data tracks audited data poorly, programme evaluations and policy decisions built on it may misjudge both the size of the problem and the effect of interventions. Comparing the two systems shows how much weight each one can bear.
+
+::: {.next-project}
+Next project: [Hidden maternal deaths in Nairobi →](nairobi-maternal-mortality.qmd)
+:::

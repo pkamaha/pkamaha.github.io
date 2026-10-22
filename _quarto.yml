@@ -2,20 +2,41 @@ project:
   type: website
 
 website:
-  title: "Ronald Parfait K. Kamaha"
+  title: "Ronald P. Kamaha"
+  description: "Epidemiology and biostatistics: surveillance, Bayesian modelling and community health in Africa."
+  site-url: https://rkamaha.github.io
+  favicon: favicon.svg
+  page-navigation: false
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: research.qmd
+        text: Research
+      - href: about.qmd
+        text: Experience
+      - href: leadership.qmd
+        text: Leadership
+      - href: activities.qmd
+        text: Activities
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ronald-p-kamaha-b41223229/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:ronaldkamaha2@gmail.com
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Ronald Parfait Kamaha Kamaha"
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme.scss, theme-dark.scss]
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-after-body: _reveal.html
