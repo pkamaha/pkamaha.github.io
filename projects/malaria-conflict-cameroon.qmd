@@ -42,5 +42,5 @@ Armed conflict disrupts the systems that keep malaria in check: health facilitie
 Malaria programmes usually plan around climate and ecology. If conflict independently drives exposure, conflict-affected regions need malaria responses designed for disrupted health systems, not only for the local transmission environment.
 
 ::: {.next-project}
-Next project: [Outbreak response in Kenya →](surveillance-kenya.qmd)
+Next project: [Field attachment: KUTRRH & KNPHI →](surveillance-kenya.qmd)
 :::

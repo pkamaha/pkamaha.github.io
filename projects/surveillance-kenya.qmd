@@ -1,53 +1,142 @@
 ---
-title: "Outbreak Response in Kenya, 2026"
-subtitle: "Field epidemiology with the national public health institute and a referral hospital"
-categories: [Surveillance, Outbreaks, Field epidemiology]
+title: "Field Attachment: KUTRRH & KNPHI, 2026"
+subtitle: "Surveillance and outbreak response, from a hospital's wards to the national level"
+categories: [Surveillance, Outbreak response, Field epidemiology]
+lightbox: auto
+toc: true
+toc-title: "On this page"
 ---
 
 [← All research](../research.qmd){.back-link}
 
 ::: {.project-meta}
 ::: {}
-[Organisations]{.k}
-[KNPHI · KUTRRH]{.v}
+[Programme]{.k}
+[BSc Epidemiology & Biostatistics attachment]{.v}
+:::
+::: {}
+[Sites]{.k}
+[KUTRRH · KNPHI (DDSR)]{.v}
 :::
 ::: {}
 [Period]{.k}
-[May – Aug 2026]{.v}
+[25 May – 13 Aug 2026]{.v}
 :::
 ::: {}
-[Diseases]{.k}
-[Visceral Leishmaniasis, Mpox, school outbreaks]{.v}
+[Focus]{.k}
+[Surveillance, outbreak response, IPC]{.v}
 :::
+:::
+
+::: {layout="[58,42]" layout-valign="center"}
 ::: {}
-[Methods]{.k}
-[IDSR, case definitions, contact tracing]{.v}
+My final-year attachment took me through two levels of Kenya's health system. At **Kenyatta University Teaching, Referral and Research Hospital (KUTRRH)**, health data is generated at the point of care. At the **Kenya National Public Health Institute (KNPHI)**, the Division of Disease Surveillance and Response (DDSR) monitors disease and coordinates outbreak response nationally.
+
+At both levels I kept seeing the same gap: problems were found, but nothing systematically tracked whether they were fixed.
+:::
+
+![On the wards at KUTRRH.](images/attachment-2026/ronald-kutrrh.jpg){.photo fig-alt="Ronald, in a white USIU-Africa lab coat and glasses, walks through a quiet hospital hall reading a folded sheet of paper."}
+:::
+
+::: {.stats}
+::: {.stat}
+[20]{.num}
+[hospital wards and units inspected for infection control]{.label}
+:::
+::: {.stat}
+[1]{.num}
+[full Mpox outbreak investigation, from contact tracing to analysis]{.label}
+:::
+::: {.stat}
+[3]{.num}
+[national outbreak investigation reports critically appraised]{.label}
+:::
+::: {.stat}
+[IDSR]{.num}
+[certified (WHO Health Security Learning Platform)]{.label}
 :::
 :::
 
-## Visceral Leishmaniasis mortality
+## KUTRRH: public health in a referral hospital {#kutrrh}
 
-At the **Kenya National Public Health Institute**, I analysed epidemiological data from Kenya's Visceral Leishmaniasis outbreak. I compared **mortality across clinical treatment regimens** to guide targeted public health interventions.
+[25 May – 19 June 2026 · Public Health Department]{.activity-when}
 
-## School outbreaks in Kakamega County
+::: {layout="[42,58]" layout-valign="center"}
+![KUTRRH, a Level 6 teaching, referral and research hospital.](images/attachment-2026/kutrrh-gate.jpg){.photo fig-alt="The blue arched entrance sign of Kenyatta University Hospital for Teaching, Referral and Research, with the hospital buildings behind it."}
 
-I investigated water-borne and hand-swelling disease outbreaks in Kakamega County schools. I developed **standardised case definitions** and reviewed national reporting frameworks so that cases would be counted consistently.
+::: {}
+KUTRRH is a Level 6 hospital, and its Public Health Department covers environmental health, infection prevention and control (IPC), active surveillance and outbreak response.
 
-## Surveillance systems assessment
+**Ward inspections.** Each morning we inspected wards for waste segregation, hygiene, supplies and infrastructure. Across **20 wards and units**, the same problems came up again and again: infectious waste in general bins, missing mosquito nets, and broken sinks and leaking roofs.
 
-I trained in Integrated Disease Surveillance and Response (IDSR) and took part in the Africa CDC, KNPHI and Ministry of Health workshop on **toolkit assessment, surveillance system mapping and gap analysis**.
+**Environmental health.** I collected borehole water samples for quality testing, assessed mosquito-net coverage across the hospital, and reviewed the pest-control procedures for bed bugs and mosquitoes.
 
-## Hospital surveillance tool
+**Disease surveillance.** Using the Ministry of Health's IDSR reporting tools, I helped identify and report notifiable conditions, including tuberculosis, severe acute malnutrition and a neonatal death.
+:::
+:::
 
-At **Kenyatta University Teaching, Referral and Research Hospital**, I designed and implemented a **hospital-wide surveillance tool**. It simplified data collection for the public health department and sped up analysis for infection-control decisions. I also carried out environmental health compliance audits on all wards to find gaps that raise the risk of hospital-acquired infections.
+### The Mpox investigation
 
-## Mpox
+When a confirmed Mpox case came through Accident & Emergency, I worked on the full investigation: **contact tracing, specimen collection, and maintaining the line list**. I then ran the **descriptive analysis**, calculating positivity and attack rates overall and by staff group, with demographic and geographic breakdowns, and **presented the findings to the hospital's Public Health Team**.
 
-I helped with outbreak investigation, analysis and **contact tracing for Mpox** within the hospital.
+This was the most formative experience of the attachment: one outbreak, from the first contact to the final report. It also meant reassuring an anxious contact of the confirmed case while giving accurate guidance.
 
-## Cholera GIS workshop
+### Ebola preparedness and health education
 
-Through the USIU-Africa EpiBio Club, I led a workshop on using **environmental exposure indices, WASH data and spatial modelling** to map and predict cholera outbreaks in Kenya's informal settlements.
+With an Ebola outbreak in the region, I attended the hospital's **two-day Ebola training** for clinical staff, which covered preparedness, response protocols and IPC. I also supported **sensitisation campaigns** and gave health education at the Maternal Wing help desk.
+
+::: {.gallery layout-ncol=3}
+![Ebola training: a PPE demonstration alongside the IDSR line-listing form.](images/attachment-2026/ebola-ppe-demo.jpg){.photo fig-alt="A trainer in full white PPE with a face shield stands beside a speaker in a white coat, under a projected slide titled Sample Line listing form."}
+
+![Clinical staff at the Ebola training.](images/attachment-2026/ebola-training.jpg){.photo fig-alt="A hospital auditorium with rows of staff in blue and white uniforms facing a stage where a PPE demonstration is under way."}
+
+![A health talk for patients in the outpatient waiting area.](images/attachment-2026/health-talk.jpg){.photo fig-alt="A health worker in a white coat speaks to patients seated in rows in a bright hospital waiting hall near the billing and registration desks."}
+:::
+
+### A proposed monitoring and evaluation tool
+
+Because the same inspection findings kept coming back, I began designing a **monitoring and evaluation (M&E) tool** for the Public Health Department. It would track recurring issues and the follow-up action taken on each, so problems are closed out rather than rediscovered every round. I continued developing it after leaving KUTRRH, and I plan to recommend that the department review and pilot it.
+
+## KNPHI: national disease surveillance {#knphi}
+
+[27 July – 13 August 2026 · Division of Disease Surveillance and Response]{.activity-when}
+
+::: {layout="[58,42]" layout-valign="center"}
+::: {}
+My placement at KNPHI came through the Ministry of Health. It gave me a national view of how Kenya detects outbreaks, investigates them and prepares for the next one.
+
+**IDSR certification.** After a briefing on the Integrated Disease Surveillance and Response framework, I completed **IDSR certification** on the WHO Health Security Learning Platform.
+
+**Appraising outbreak investigations.** I critically appraised **three outbreak investigation reports**, judging whether the evidence supported each conclusion. They included a **129-case outbreak among about 1,800 students** at two girls' schools in Kakamega County, and a swelling-hands cluster in Marsabit.
+
+**Visceral leishmaniasis.** I carried out a descriptive biostatistical analysis of an outbreak dataset, comparing mortality across clinical treatment regimens.
+:::
+
+![The Ministry of Health, Nairobi.](images/attachment-2026/moh-entrance.jpg){.photo fig-alt="The glass entrance of the Ministry of Health building with the Republic of Kenya coat of arms and a Ministry of Health sign above the doors."}
+:::
+
+### Ebola emergency response training
+
+I completed a **three-day Ebola Virus Disease (EVD) emergency response training** for frontline paramedics. It covered EVD epidemiology, pre-hospital care and care of the dead, IPC and decontamination, and psychosocial self-care, with hands-on practice in **PPE donning and doffing** and **handling patients in an ambulance**. One lesson stayed with me: a small slip in the PPE sequence can put a responder at risk, so these procedures have to be practised until they hold up under pressure.
+
+### Assessing Kenya's digital surveillance systems
+
+From **11 to 13 August**, I joined a multi-agency meeting of the **Ministry of Health, KNPHI and Africa CDC** to assess Kenya's digital disease surveillance systems. Using a profiling and gap-analysis tool, we mapped platforms including **ADaM, m-Dharura and KHIS**. We found **more than a dozen platforms that are only partly integrated**. It was the hospital's tracking gap again, at national scale.
+
+::: {.gallery layout-ncol=3}
+![EVD emergency response training: ambulance-based patient handling.](images/attachment-2026/evd-field-training.jpg){.photo fig-alt="A responder in a full white protective suit stands by an open ambulance while trainees in orange vests prepare disinfectant and equipment outdoors."}
+
+![The MOH/NPHI–Africa CDC meeting.](images/attachment-2026/africa-cdc-meeting.jpg){.photo fig-alt="An open door into a meeting room where participants work on laptops, next to a screen sign reading MOH/NPHI-Africa CDC Meeting, Mara."}
+
+![Mapping surveillance platforms during the toolkit assessment.](images/attachment-2026/toolkit-presentation.jpg){.photo fig-alt="A presenter stands beside a projected diagram linking surveillance platforms while participants at round tables follow on laptops."}
+:::
+
+## What I took away
+
+- **Finding problems is only half the job.** Without a way to track follow-up, the same issues come back every inspection round, in a single hospital and across national systems.
+- **Data quality starts with collection.** Clear case definitions and reporting guidelines matter as much as the analysis that comes after.
+- **Real outbreak data is imperfect.** Attack rates and positivity rates still have to be calculated from incomplete records, and that takes follow-up work.
+- **Risk communication is a skill.** Accurate guidance has to come with enough reassurance to prevent panic.
 
 ::: {.next-project}
 Next project: [Diagnostic baseline for Batoukop →](batoukop-diagnostics.qmd)

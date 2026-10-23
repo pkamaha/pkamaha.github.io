@@ -61,7 +61,7 @@ Hierarchical count models, interrupted time series and GIS for messy, sparse and
 Field epidemiology with Kenya's national public health institute and a referral hospital, from case definitions to contact tracing.
 
 ::: {.focus-links}
-[Outbreak response in Kenya, 2026](projects/surveillance-kenya.qmd)
+[Field attachment: KUTRRH & KNPHI](projects/surveillance-kenya.qmd)
 [Diagnostic baseline for Batoukop](projects/batoukop-diagnostics.qmd)
 :::
 :::

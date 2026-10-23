@@ -27,26 +27,30 @@ toc: true
 ::: {.timeline}
 ::: {.entry}
 ::: {.entry-head}
-[Attachee]{.role}
-[Jul 2026 – Aug 2026]{.when}
+[Attachee, Division of Disease Surveillance and Response]{.role}
+[27 Jul – 13 Aug 2026]{.when}
 :::
-[Kenya National Public Health Institute (KNPHI)]{.org}
+[Kenya National Public Health Institute (KNPHI), Ministry of Health]{.org}
 
-- Trained in Integrated Disease Surveillance and Response (IDSR); took part in the Africa CDC, KNPHI and Ministry of Health workshop on toolkit assessment, surveillance system mapping and gap analysis.
-- Investigated water-borne and hand-swelling disease outbreaks in Kakamega County schools by developing standardised case definitions and reviewing national reporting frameworks.
-- Analysed epidemiological data from Kenya's Visceral Leishmaniasis outbreak, comparing mortality across clinical treatment regimens to guide public health interventions.
+- Earned **IDSR certification** and critically appraised three national outbreak investigation reports, including a 129-case school outbreak in Kakamega County.
+- Analysed a visceral leishmaniasis outbreak dataset, comparing mortality across treatment regimens.
+- Completed a three-day **Ebola emergency response training** and joined the MOH, KNPHI and Africa CDC assessment of Kenya's digital surveillance systems.
+
+[Read about the attachment →](projects/surveillance-kenya.qmd#knphi){.entry-link}
 :::
 
 ::: {.entry}
 ::: {.entry-head}
-[Attachee]{.role}
-[May 2026 – Jul 2026]{.when}
+[Attachee, Public Health Department]{.role}
+[25 May – 19 Jun 2026]{.when}
 :::
 [Kenyatta University Teaching, Referral and Research Hospital (KUTRRH)]{.org}
 
-- Designed and implemented a hospital-wide surveillance tool that simplified data collection and sped up analysis for infection-control decisions.
-- Conducted routine environmental health compliance audits on all wards, identifying operational gaps that raise the risk of hospital-acquired infections.
-- Assisted with outbreak investigation, analysis and contact tracing for Mpox within the facility.
+- Inspected **20 wards and units** for infection prevention, waste segregation and environmental health, and reported notifiable diseases using IDSR tools.
+- Worked on a full **Mpox outbreak investigation**: contact tracing, specimen collection, line listing and descriptive analysis presented to the Public Health Team.
+- Began designing a **monitoring and evaluation tool** to track recurring inspection findings and follow-up actions.
+
+[Read about the attachment →](projects/surveillance-kenya.qmd#kutrrh){.entry-link}
 :::
 
 ::: {.entry}
