@@ -441,3 +441,18 @@ a.read-more, a.activity-link {
 }
 @keyframes ongoing-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
 @media (prefers-reduced-motion: reduce) { .ongoing-list li::before { animation: none; } }
+
+/* ---------- Dark-mode and narrow-card fixes ---------- */
+body.quarto-dark .btn-outline-secondary { color: #c9d1d3; border-color: #6b777a; }
+body.quarto-dark .btn-outline-secondary:hover { background: #c9d1d3; color: #12181b; }
+.pcard p:has(> .methods) { flex-wrap: wrap; }
+.pcard p:has(> .methods) .methods { flex: 1 1 10rem; }
+a.read-more { margin-left: auto; }
+
+/* ---------- Tablet layout ---------- */
+.focus-grid { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+@media (min-width: 577px) and (max-width: 991.98px) {
+  .focus-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.9rem; }
+  .focus-card { padding: 1.15rem; }
+  .card-grid.three { grid-template-columns: 1fr; }
+}
