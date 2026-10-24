@@ -83,12 +83,14 @@ This was the most formative experience of the attachment: one outbreak, from the
 
 ### Ebola preparedness and health education
 
-With an Ebola outbreak in the region, I attended the hospital's **two-day Ebola training** for clinical staff, which covered preparedness, response protocols and IPC. I also supported **sensitisation campaigns** and gave health education at the Maternal Wing help desk.
+With an Ebola outbreak in the region, I attended the hospital's **two-day Ebola training** for clinical staff, which covered preparedness, response protocols and IPC. I also joined a departmental **strategy meeting on the Ebola threat**, supported **sensitisation campaigns**, and gave health education at the Maternal Wing help desk.
 
-::: {.gallery layout-ncol=3}
+::: {.gallery layout-ncol=2}
 ![Ebola training: a PPE demonstration alongside the IDSR line-listing form.](images/attachment-2026/ebola-ppe-demo.jpg){.photo fig-alt="A trainer in full white PPE with a face shield stands beside a speaker in a white coat, under a projected slide titled Sample Line listing form."}
 
 ![Clinical staff at the Ebola training.](images/attachment-2026/ebola-training.jpg){.photo fig-alt="A hospital auditorium with rows of staff in blue and white uniforms facing a stage where a PPE demonstration is under way."}
+
+![A departmental strategy meeting on the Ebola threat.](images/attachment-2026/ebola-strategy-meeting.jpg){.photo fig-alt="A long boardroom with microphones on wooden tables, where staff in white coats take notes while a speaker presents on a video call projected on the far wall."}
 
 ![A health talk for patients in the outpatient waiting area.](images/attachment-2026/health-talk.jpg){.photo fig-alt="A health worker in a white coat speaks to patients seated in rows in a bright hospital waiting hall near the billing and registration desks."}
 :::
