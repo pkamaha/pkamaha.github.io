@@ -1,5 +1,7 @@
 ---
-pagetitle: "Ronald P. Kamaha | Epidemiology & Biostatistics"
+pagetitle: "Ronald Parfait Kamaha Kamaha – Epidemiology & Biostatistics"
+title-meta: "Ronald Parfait Kamaha Kamaha"
+description: "Ronald Parfait Kamaha Kamaha (Ronald P. Kamaha) is an epidemiologist and biostatistician working on maternal health, Bayesian and spatial modelling, and disease surveillance in Kenya and Cameroon."
 ---
 
 ::: {.hero}

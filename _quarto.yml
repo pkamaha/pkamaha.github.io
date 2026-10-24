@@ -7,6 +7,9 @@ website:
   site-url: https://pkamaha.github.io
   favicon: favicon.svg
   page-navigation: false
+  image: images/ronald.jpg
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
