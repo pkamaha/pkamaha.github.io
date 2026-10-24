@@ -43,16 +43,6 @@ A new Conflict Exposure Index and spatiotemporal framework for measuring how arm
 
 [Conflict Exposure Index · DiD-ITS · GIS]{.methods} [Read more →](projects/malaria-conflict-cameroon.qmd){.read-more .stretched-link}
 :::
-
-::: {.pcard .linked}
-[Workshop · EpiBio Club]{.tag}
-
-### Predicting Cholera in Informal Settlements
-
-A GIS workshop on using environmental exposure indices, WASH data and spatial modelling to map cholera risk.
-
-[GIS · Exposure indices · WASH]{.methods} [Read more →](leadership.qmd#academic-leadership){.read-more .stretched-link}
-:::
 :::
 
 ## <i class="bi bi-activity"></i> Surveillance & outbreaks {#surveillance}
@@ -77,6 +67,14 @@ A free one-month clinic that produced the community's first prevalence data for 
 
 [Prevalence survey · Referral pathways]{.methods} [Read more →](projects/batoukop-diagnostics.qmd){.read-more .stretched-link}
 :::
+:::
+
+## <i class="bi bi-hourglass-split"></i> Ongoing projects {#ongoing}
+
+::: {.ongoing-list}
+- Predicting cholera in Kenya's informal settlements using environmental exposure indices and WASH data
+- Predicting the current cholera outbreak in Cameroon's Far North using environmental covariates
+- When pregnancy peaks meet malaria season: mapping first-trimester malaria risk in Cameroon to target resources
 :::
 
 ## Methods & tools

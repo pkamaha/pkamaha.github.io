@@ -417,3 +417,27 @@ a.read-more, a.activity-link {
   .md-a2 { transform: rotate(-90deg); }
   .md-down .md-arrow-label { display: none; }
 }
+
+/* ---------- Ongoing projects ---------- */
+.ongoing-list ul { list-style: none; padding: 0; margin: 1rem 0 2rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.ongoing-list li {
+  position: relative;
+  padding: 0.85rem 1.1rem 0.85rem 2.4rem;
+  border: 1px dashed rgba(127, 127, 127, 0.4);
+  border-radius: 10px;
+  font-weight: 500;
+}
+.ongoing-list li::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-top: -0.3rem;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  animation: ongoing-pulse 2s ease-in-out infinite;
+}
+@keyframes ongoing-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@media (prefers-reduced-motion: reduce) { .ongoing-list li::before { animation: none; } }
