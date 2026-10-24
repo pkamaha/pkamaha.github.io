@@ -1,7 +1,9 @@
 ---
-title: "Hidden Maternal Deaths in Nairobi's Informal Settlements"
-subtitle: "A Bayesian hierarchical zero-inflated negative binomial model for unobserved maternal mortality"
+title: "The Shadow Burden"
+subtitle: "Estimating unobserved maternal mortality in Nairobi's informal settlements with Bayesian hierarchical detection modelling"
 categories: [Maternal health, Bayesian modelling, Spatial analysis]
+toc: true
+toc-title: "On this page"
 ---
 
 [← All research](../research.qmd){.back-link}
@@ -9,38 +11,90 @@ categories: [Maternal health, Bayesian modelling, Spatial analysis]
 ::: {.project-meta}
 ::: {}
 [Type]{.k}
-[Research fellowship proposal]{.v}
+[Research proposal]{.v}
 :::
 ::: {}
 [Programme]{.k}
-[AL for Health, Africa Career Networks]{.v}
+[AL for Health Research Fellowship, FY2026]{.v}
 :::
 ::: {}
-[Period]{.k}
-[Jan 2025 – present]{.v}
+[Setting]{.k}
+[Nairobi County, 85 wards]{.v}
 :::
 ::: {}
 [Methods]{.k}
-[Bayesian hierarchical ZINB]{.v}
+[Bayesian ZINB with BYM2 spatial effects, R-INLA]{.v}
 :::
 :::
 
-## The question
+::: {.callout-note appearance="simple"}
+## A proposed study
+This page describes a **research proposal** (June 2026). Data access and ethics approval are still to come, so it sets out the question, design and hypotheses. It contains no results.
+:::
 
-Maternal deaths in Nairobi's informal settlements are likely under-recorded. Some deaths never reach a facility, some are not reported, and some areas are physically hard to reach. Raw counts therefore contain many zeros, and some of those zeros reflect missed deaths rather than no deaths. This project asks **how many maternal deaths go unobserved, and where**.
+## The problem
 
-## Approach
+We usually assume that people in cities have better access to care, and therefore better health outcomes, than people in rural areas. In Nairobi's informal settlements, such as **Kibera, Mathare, Korogocho, Viwandani and Mukuru**, that assumption breaks down for maternal health.
 
-- **Zero-inflated negative binomial (ZINB):** separates "structural" zeros (areas where deaths are not captured) from true zeros, while allowing for overdispersed counts.
-- **Bayesian hierarchical structure:** borrows strength across areas so that sparse local data still yields stable estimates with honest uncertainty.
-- **Spatial impassability barriers:** includes physical access constraints so that hard-to-reach areas are not mistaken for low-risk ones.
-- **Reporting undercounts:** models under-reporting explicitly, rather than treating recorded counts as the truth.
+Kenya's maternal mortality estimates rely mostly on facility reports in the **Kenya Health Information System (KHIS)**. But many deaths in these settlements happen at home, in transit, or in unregistered clinics, so they never reach a facility register. Recorded rates can therefore look *lowest* where the true burden may be *highest*. If resources follow recorded deaths, they go to the wrong places.
 
-<!-- TODO: add data sources, priors/software (e.g. brms, INLA, Stan), and preliminary results once available. -->
+The size of this undercount, and *where* it is concentrated, is unknown. This project sets out to measure it rather than assume it.
 
-## Why it matters
+## Research questions
 
-Resources follow recorded need. If the areas with the poorest access also have the poorest reporting, standard analyses will direct resources away from the women at highest risk. Estimating the hidden burden corrects that bias.
+1. Do ward-level KHIS maternal death counts show **more variation and more zeros** than a standard Poisson model would predict?
+2. Which ward-level factors best predict whether a maternal death is **actually captured** in KHIS?
+3. Once missed deaths are accounted for, what is the **estimated true maternal mortality** in each ward, and which socioeconomic factors are most strongly linked to the gap?
+
+## The model
+
+The core idea is to separate two processes that together produce the number we see in KHIS: how many women **actually die**, and how many of those deaths the health system **detects**.
+
+```{=html}
+<div class="model-diagram" role="img" aria-label="Diagram: a mortality layer (ward poverty, home birth rate) determines true maternal deaths; a detection layer (facility density, community health worker coverage, KHIS reporting completeness) determines how many of those become recorded KHIS deaths.">
+  <div class="md-layer md-mort"><span class="md-label">Mortality layer</span><ul><li>Ward poverty level</li><li>Home birth rate</li></ul></div>
+  <div class="md-arrow md-a1">&rarr;</div>
+  <div class="md-node md-true"><strong>True maternal deaths</strong><span class="md-sub">unobserved</span></div>
+  <div class="md-arrow md-a2">&rarr;</div>
+  <div class="md-node md-out"><strong>Recorded KHIS deaths</strong><span class="md-sub">what we see</span></div>
+  <div class="md-arrow md-up">&uarr;</div>
+  <div class="md-layer md-detect"><span class="md-label">Detection layer</span><ul><li>Facility density</li><li>Community health worker coverage</li><li>KHIS reporting completeness</li></ul></div>
+</div>
+```
+
+[The recorded count is shaped by both how many women actually die and how many of those deaths the health system detects.]{.md-caption}
+
+- **Excess zeros and overdispersion:** a **zero-inflated negative binomial (ZINB)** model separates wards with genuinely no deaths from wards where deaths simply went unrecorded.
+- **Detection:** a logistic component models the probability that deaths are missed, as a function of facility density, community health worker coverage and reporting completeness.
+- **Calibration:** independent **verbal autopsy data** from the Nairobi Urban Health and Demographic Surveillance System (NUHDSS) in Korogocho and Viwandani, run by the African Population and Health Research Center, act as the reference for calibrating detection.
+- **Spatial smoothing:** a **BYM2** random effect lets neighbouring wards inform each other's estimates, separating spatially structured from unstructured variation.
+- **Output:** posterior estimates with **95% credible intervals** of the true number of maternal deaths in each of Nairobi's 85 wards, mapped as a "shadow mortality" burden.
+- **Tools:** fitted in **R-INLA**, which is fast and well suited to spatial disease mapping.
+
+## Data sources
+
+| Source | What it provides |
+|---|---|
+| Kenya Health Information System (Ministry of Health) | Ward-level maternal death counts and reporting completeness |
+| NUHDSS (African Population and Health Research Center) | Aggregated verbal autopsy maternal deaths, Korogocho and Viwandani |
+| Kenya Master Health Facility List | Facility locations and density |
+| Nairobi County Health Department | Community Health Unit coverage |
+| 2019 Census and 2022 Kenya DHS | Ward socioeconomic profiles and birth-rate estimates |
+| WorldPop | Age- and sex-specific population estimates |
+
+## What sets it apart
+
+To my knowledge, no previous study has modelled maternal mortality **within a single city at ward level**, or used an **independent verbal-autopsy reference to model the detection process** itself. The goal is a practical tool that shows health officials *where the system is failing to see deaths*, not only where deaths are recorded.
+
+## Hypotheses
+
+- Recorded counts will show substantial overdispersion and zero-inflation.
+- Detection will depend measurably on health-system capacity.
+- Estimated true mortality will most exceed recorded figures in the least-served settlements, with poverty and home births as key drivers. If so, part of the "urban advantage" in maternal health is an artefact of incomplete measurement.
+
+::: {.privacy-note}
+<i class="bi bi-shield-check"></i> Ethics approval will be sought from the USIU-Africa review committee and NACOSTI. Formal data use agreements will govern access to KHIS, NUHDSS and community health data, including secure storage and a ban on re-identification. Findings will be shared with the Nairobi County Health Management Team and APHRC before public release.
+:::
 
 ::: {.next-project}
 Next project: [Conflict and malaria in Cameroon →](malaria-conflict-cameroon.qmd)

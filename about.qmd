@@ -60,8 +60,10 @@ toc: true
 :::
 [AL for Health · Africa Career Networks]{.org}
 
-- Developed a research proposal to model unobserved maternal mortality in Nairobi's informal settlements.
-- Applied a Bayesian hierarchical zero-inflated negative binomial (ZINB) model to account for spatial access barriers and reporting undercounts.
+- Developed a research proposal, *The Shadow Burden*, to estimate unobserved maternal mortality across Nairobi's 85 wards.
+- Designed a Bayesian hierarchical zero-inflated negative binomial (ZINB) model with BYM2 spatial effects, calibrated against independent verbal autopsy data.
+
+[Read about the proposal →](projects/nairobi-maternal-mortality.qmd){.entry-link}
 :::
 
 :::

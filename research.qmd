@@ -21,13 +21,13 @@ An interrupted time-series and counterfactual analysis comparing trends in routi
 :::
 
 ::: {.pcard .linked}
-[Research fellowship]{.tag}
+[Research proposal · AL for Health]{.tag}
 
-### Hidden Maternal Deaths in Nairobi's Informal Settlements
+### The Shadow Burden: Hidden Maternal Deaths in Nairobi
 
-A Bayesian hierarchical zero-inflated negative binomial model for deaths missing from the records.
+A proposed Bayesian spatial model to estimate maternal deaths missing from the records across Nairobi's 85 wards.
 
-[Bayesian ZINB · Spatial access]{.methods} [Read more →](projects/nairobi-maternal-mortality.qmd){.read-more .stretched-link}
+[Bayesian ZINB · BYM2 · R-INLA]{.methods} [Read more →](projects/nairobi-maternal-mortality.qmd){.read-more .stretched-link}
 :::
 :::
 
