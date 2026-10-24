@@ -39,9 +39,9 @@ A proposed Bayesian spatial model to estimate maternal deaths missing from the r
 
 ### Conflict-Driven Acceleration of Malaria Exposure
 
-A spatial interrupted time-series analysis of how armed conflict changed malaria exposure in Cameroon, 2010–2024.
+A new Conflict Exposure Index and spatiotemporal framework for measuring how armed conflict reshaped malaria exposure in Cameroon, 2010–2024.
 
-[Spatial ITS · Conflict exposure indexing · GIS]{.methods} [Read more →](projects/malaria-conflict-cameroon.qmd){.read-more .stretched-link}
+[Conflict Exposure Index · DiD-ITS · GIS]{.methods} [Read more →](projects/malaria-conflict-cameroon.qmd){.read-more .stretched-link}
 :::
 
 ::: {.pcard .linked}
