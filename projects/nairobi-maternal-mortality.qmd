@@ -51,14 +51,14 @@ The size of this undercount, and *where* it is concentrated, is unknown. This pr
 The core idea is to separate two processes that together produce the number we see in KHIS: how many women **actually die**, and how many of those deaths the health system **detects**.
 
 ```{=html}
-<div class="model-diagram" role="img" aria-label="Diagram: a mortality layer (ward poverty, home birth rate) determines true maternal deaths; a detection layer (facility density, community health worker coverage, KHIS reporting completeness) determines how many of those become recorded KHIS deaths.">
+<div class="model-diagram" role="img" aria-label="Diagram: a mortality layer (ward poverty, home birth rate) determines true maternal deaths. A detection layer (facility density, community health worker coverage, KHIS reporting completeness) determines how many of those true deaths become recorded KHIS deaths.">
   <div class="md-layer md-mort"><span class="md-label">Mortality layer</span><ul><li>Ward poverty level</li><li>Home birth rate</li></ul></div>
-  <div class="md-arrow md-a1">&rarr;</div>
+  <div class="md-arrow md-a1" aria-hidden="true">&rarr;</div>
   <div class="md-node md-true"><strong>True maternal deaths</strong><span class="md-sub">unobserved</span></div>
-  <div class="md-arrow md-a2">&rarr;</div>
-  <div class="md-node md-out"><strong>Recorded KHIS deaths</strong><span class="md-sub">what we see</span></div>
-  <div class="md-arrow md-up">&uarr;</div>
+  <div class="md-arrow md-down" aria-hidden="true">&darr;<span class="md-arrow-label">filtered by detection</span></div>
   <div class="md-layer md-detect"><span class="md-label">Detection layer</span><ul><li>Facility density</li><li>Community health worker coverage</li><li>KHIS reporting completeness</li></ul></div>
+  <div class="md-arrow md-a2" aria-hidden="true">&rarr;</div>
+  <div class="md-node md-out"><strong>Recorded KHIS deaths</strong><span class="md-sub">what we see</span></div>
 </div>
 ```
 
