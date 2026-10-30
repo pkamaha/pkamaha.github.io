@@ -32,7 +32,7 @@ toc: true
 :::
 [Kenya National Public Health Institute (KNPHI), Ministry of Health]{.org}
 
-- Earned **IDSR certification** and critically appraised three national outbreak investigation reports, including a 129-case school outbreak in Kakamega County.
+- Earned **IDSR certification** and developed a case definition and appraised the water-borne disease outbreak at Mukumu Girls School and the swelling-hands outbreak at Eregi Girls School, Kakamega County.
 - Analysed a visceral leishmaniasis outbreak dataset, comparing mortality across treatment regimens.
 - Completed a three-day **Ebola emergency response training** and joined the MOH, KNPHI and Africa CDC assessment of Kenya's digital surveillance systems.
 

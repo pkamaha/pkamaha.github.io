@@ -109,7 +109,7 @@ My placement at KNPHI came through the Ministry of Health. It gave me a national
 
 **IDSR certification.** After a briefing on the Integrated Disease Surveillance and Response framework, I completed **IDSR certification** on the WHO Health Security Learning Platform.
 
-**Appraising outbreak investigations.** I critically appraised **three outbreak investigation reports**, judging whether the evidence supported each conclusion. They included a **129-case outbreak among about 1,800 students** at two girls' schools in Kakamega County, and a swelling-hands cluster in Marsabit.
+**Appraising outbreak investigations.** I critically appraised **three outbreak investigation reports**, judging whether the evidence supported each conclusion. They included the **water-borne disease outbreak at Mukumu Girls School** and the **swelling-hands outbreak at Eregi Girls School**, both in Kakamega County, for which I also developed a case definition.
 
 **Visceral leishmaniasis.** I carried out a descriptive biostatistical analysis of an outbreak dataset, comparing mortality across clinical treatment regimens.
 :::
