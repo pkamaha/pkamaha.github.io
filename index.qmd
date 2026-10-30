@@ -15,7 +15,7 @@ description: "Ronald Parfait Kamaha Kamaha (Ronald P. Kamaha) is an epidemiologi
 
 ::: {.actions}
 [View research](research.qmd){.btn .btn-primary}
-[Experience](about.qmd){.btn .btn-outline-primary}
+[View my CV](cv.qmd){.btn .btn-outline-primary}
 [Get in touch](mailto:ronaldkamaha2@gmail.com){.btn .btn-outline-secondary}
 :::
 :::

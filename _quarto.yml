@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - files/Ronald_Kamaha_CV.pdf
 
 website:
   title: "Ronald P. Kamaha"
@@ -22,6 +24,8 @@ website:
         text: Leadership
       - href: activities.qmd
         text: Activities
+      - href: cv.qmd
+        text: CV
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/ronald-p-kamaha-b41223229/
